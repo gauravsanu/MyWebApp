@@ -1,4 +1,4 @@
-@ECHO ON
+@ECHO OFF
 IF "%1"=="start" (
     ECHO start MyWebApp
     start "MyWebApp" mvnw spring-boot:run
@@ -9,4 +9,4 @@ IF "%1"=="start" (
 ) ELSE (
     ECHO please, use "run.bat start" or "run.bat stop"
 )
-#pause
+pause
